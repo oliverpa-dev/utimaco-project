@@ -1,0 +1,628 @@
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width; initial-scale=1;">
+            <script src="https://kit.fontawesome.com/9c31d13427.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
+            <link rel="stylesheet" href="../css/style3.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link
+                href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300&display=swap"
+                rel="stylesheet">
+        </head>
+        <title>LIMS</title>
+
+        <body>
+
+            <!-- Navbar Start -->
+            <div class="fixed-top navbar navbar-light bg-light navbar-expand-md">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo" src="../pics/Logo.png" width="170" height="40" class="d-inline-block align-top"
+                        alt="">
+                </a>
+
+                <button type="button" class="navbar-toggler" data-toggle="collapse"
+                    data-target=".navbar-collapse">☰</button>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item"><a href="../index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="dropdown menu-large nav-item"> <a href="#" class="dropdown-toggle nav-link"
+                                data-toggle="dropdown"> Products </a>
+
+                            <ul class="dropdown-menu megamenu">
+                                <div class="row">
+                                    <li class="col-md-2 dropdown-item">
+                                        <ul>
+                                            <li class="dropdown-header">LIMS(Lawful Interception Management System)</li>
+                                            <li><a href="../Lims/LawfulInterceptionManagementSystem.html">Lawful
+                                                    Interception Management System</a>
+                                            </li>
+                                            <li class="disabled"><a href="../Lims/DataRetentionSuite.html">Data
+                                                    Retention Suite</a>
+                                            </li>
+
+                                            <li class="divider"></li>
+                                            <li class="dropdown-header"></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="col-md-2 dropdown-item">
+                                        <ul>
+                                            <li class="dropdown-header navcontainer"></li>
+                                            <li><a href="../Lims/RealTimeNetworkMonitoring.html">LIMS Access Points</a>
+                                            </li>
+                                            <li><a href="../Lims/LISMGateaway.html">LIMS Gateway</a>
+                                            </li>
+                                            <li><a href="../Lims/LawfulInterceptionTestSuite.html">LITS - Lawful
+                                                    Interception Suite</a>
+                                            </li>
+                                            <li class="divider"></li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-md-2 dropdown-item">
+                                        <ul>
+                                            <li class="dropdown-header">HSM(Hardware Security Module)</li>
+                                            <li><a class="Subheader">General Purpose HSM</a>
+                                            </li>
+                                            <li><a href="../HSM/SecuritySeverSeGen2.html">Security Server Se Gen2</a>
+                                            </li>
+                                            <li><a href="#">Security Server CSe</a>
+                                            </li>
+                                            <li><a href="#">CryptoServer CP5(eIDAS & CC)</a>
+                                            </li>
+                                            <li><a href="#">CryptoServer Cloud</a>
+                                            </li>
+                                            <li><a href="#">Timestamp Server</a>
+                                            </li>
+                                            <li class="divider"></li>
+                                            <li class="dropdown-header"></li>
+                                            <li><a class="Subheader" href="#">Key Management</a>
+                                            </li>
+                                            <li><a href="#">Enterprise Key Management</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-md-2 dropdown-item navcontainer">
+                                        <ul>
+                                            <li><a class="Subheader" href="#">KeyBRIDGE</a>
+                                            </li>
+                                            <li><a href="#">KeyBRIDGE POI</a>
+                                            </li>
+                                            <li><a href="../HSM/KeyBRIDGERKD.html">KeyBRIDGE RKD</a>
+                                            </li>
+                                            <li><a href="../HSM/BlockSafe.html">Block-safe</a>
+                                            </li>
+                                            <li><a href="../HSM/KeyBRIDGEEKMS.html">KeyBRIDGE eKMS</a>
+                                            </li>
+                                            <li><a href="../HSM/TokenBRIDGE.html">TokenBRIDGE</a>
+                                            </li>
+                                            <li class="divider"></li>
+                                            <li class="dropdown-header"></li>
+                                            <li><a class="Subheader" href="#">HSM Simulator</a>
+                                            </li>
+                                            <li><a href="#">Block-safe HSM Simulator</a>
+                                            </li>
+                                            <li><a href="#">CryptoServer CP5 Simulator</a>
+                                            </li>
+                                            <li><a href="#">SecurityServer Simulator</a>
+                                            </li>
+                                            <li><a href="../HSM/Qsafe-simulator.html">Q-safe HSM Simulator</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-md-2 dropdown-item navcontainer">
+                                        <ul>
+                                            <li><a class="Subheader" href="#">Software Development Kit</a>
+                                            </li>
+                                            <li><a href="../HSM/CryptoServer.html">CryptoServer SDK</a>
+                                            </li>
+                                            <li><a href="../HSM/CryptoScript.html">CryptoScript SDK</a>
+                                            </li>
+                                            <li class="divider"></li>
+                                            <li class="dropdown-header"></li>
+                                            <li><a class="Subheader" href="#">Payment HSM</a>
+                                            </li>
+                                            <li><a href="../HSM/Atalla.html">Atalla AT1000</a>
+                                            </li>
+                                            <li><a href="../HSM/PaymentServerSeGen2.html">PaymentServer Se Gen2</a>
+                                            </li>
+                                            <li><a href="../HSM/PaymentServerCSe.html">Payment CSE</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="../service.html" class="nav-link">Services</a>
+                        </li>
+
+                        <li class="dropdown menu-large nav-item"> <a href="#" class="dropdown-toggle nav-link"
+                                data-toggle="dropdown"> About Us </a>
+
+                            <ul class="dropdown-menu megamenu">
+                                <div class="row" style="padding-left: 3%">
+                                    <li class="col-md-2 dropdown-item">
+                                        <ul>
+
+                                            <li><a href="./careers.html">Careers</a>
+                                            </li>
+                                            <li class="disabled"><a href="../investors.html">Management & Investors</a>
+                                            </li>
+
+                                            <li class="divider"></li>
+                                            <li class="dropdown-header"></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="col-md-2 dropdown-item">
+                                        <ul>
+
+                                            <li><a href="../aboutUs.html">About Us</a>
+                                            </li>
+                                            <li><a href="../partner.html">Partners</a>
+                                            </li>
+                                            <li class="divider"></li>
+                                        </ul>
+                                    </li>
+                            </ul>
+                </div>
+            </div>
+            <!-- Navbar End -->
+            <br>
+            <br>
+            <br>
+            <!-- Banner LIMS Product Start -->
+            <header>
+                <div class="banner-wrapper banner-wrapper-lims">
+                    <div class="banner-row ">
+                        <h1 class="title">Utimaco's Lawful Interception Management System LIMS</h1>
+                        <h2>Intercept Communications - Lawfully</h2>
+                        <p>
+                            <br>
+                            Utimaco LIMS is a certified and industry-leading solution to help telecommunications service
+                            providers respond to electronic surveillance orders as required by law.
+                        </p>
+                    </div>
+                </div>
+            </header>
+            <!-- Banner LIMS Product End -->
+            <!-- Story telling - LIMS-START -->
+            <div class="product-container" style="border-bottom: none;">
+                <div class="product-wrapper product-wrapper-lims product-wrapper">
+                    <div class="img-lims">
+                        <img src="../pics/lims-pics/csm_LIMS_Schema_34ba248ac7.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <h1>LIMS - a Carrier-grade LI Solution</h1>
+                        <p>The Utimaco Lawful Interception Management System (LIMS) is a state-of-the-art monitoring
+                            solution
+                            for fixed and mobile networks. It helps telecom operators and Internet service providers
+                            fulfill
+                            their legal obligation to intercept calls and data while maintaining maximum privacy
+                            protection.
+                            <br>
+                            <br>
+                            Utimaco LIMS enables target-based monitoring of public communications services including
+                            telephone
+                            calls, mobile data and Internet-based services such as e-mail, Voice-over-IP, instant
+                            messaging
+                            and
+                            others. The system acts as a bridge or mediator between the service provider’s network and
+                            the
+                            law
+                            enforcement’s monitoring centers. Strong security provisions prevent unauthorized access,
+                            secure
+                            all
+                            private user data and facilitate security audits by comprehensive logging.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Story telling - LIMS-END -->
+
+            <!-- Options - Start -->
+
+            <div class="container-options">
+                <div class="wrapper-options">
+                    <span class="option-span features">
+                        <a href="#features">
+                            <p>Features</p>
+                        </a>
+                    </span>
+                    <span class="option-span1" id="">
+                        <a href="#benefits">
+                            <p>Benefits</p>
+                        </a>
+                    </span>
+                    <span class="option-span2" id="">
+                        <a href="#options">
+                            <p>Options</p>
+                        </a>
+                    </span>
+                    <span class="option-span3" id="">
+                        <a href="#solutions">
+                            <p>Solutions</p>
+                        </a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Options - End -->
+
+            <!-- Utimaco product video - START -->
+
+            <div class="container-video">
+                <div class="wrapper-video">
+                    <div class="title-video">
+                        <h1>LIMS Product Video</h1>
+                    </div>
+                    <div class="product-video">
+                        <iframe width="796" height="446" src="https://www.youtube.com/embed/NCPLL_wAScI" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Utimaco product video - END -->
+            <!-- Features - START -->
+            <div class="container-features" id="features">
+                <div class="wrapper-features">
+                    <div class="img-lims pic-features">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <img src="../pics/lims-pics/csm_LIMS_Start_7cfe3b6077.png" alt="">
+                    </div>
+                    <div class="text-content-features">
+                        <br>
+                        <br>
+                        <h1>Features</h1>
+                        <h2>Utimaco LIMS highlights at a glance:</h2>
+                        <p>Intercepts all kinds of public communications services in real-time, including phone and
+                            video
+                            calls, messages (SMS, MMS), faxes, e-mails, VoIP, VoLTE, file transfers and other Internet
+                            services.
+                            <br>
+                            Supports all networks: 2G, 3G, 4G, 5G wireless, fixed networks, DSL, Cable, WLAN, WiMAX, PON
+                            <br>
+                            Integrates seamlessly with more than 300 types of core network nodes by all leading vendors
+                            <br>
+                            Strong access control and privacy protection
+                            <br>
+                            High availability, and disaster recovery setup
+                            <br>
+                            Multitenant support
+                            <br>
+                            Scalable and extensible to process tens of gigabit per second
+                            <br>
+                            Fully standards-compliant (ETSI, 3GPP, ANSI/ATIS, Cablelabs)
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features - END -->
+
+            <!-- Benefits - START -->
+
+            <div id="benefits" class="container-benefits">
+                <div class="wrapper-benefits">
+                    <div class="text-content-benefits">
+                        <br>
+                        <br>
+                        <br>
+                        <h1 id="benefits">Benefits</h1>
+                        <h2>
+                            Utimaco LIMS offers a host of compelling benefits for telecom service providers and network
+                            operators:
+                        </h2>
+                        <p>
+                            Low operational costs due to centralized administration of warrants and intercepts
+                            <br>
+                            Highest security standards to prevent misuse and unauthorized access
+                            <br>
+                            Seamless integration into existing networks, with fast time-to-market and best value for
+                            money
+                            <br>
+                            Universal for all types of public communication services and networks
+                            <br>
+                            Certified legal compliance
+                        </p>
+                    </div>
+                    <div class="img-lims-benefits pic-benefits">
+                        <br>
+                        <br>
+                        <br>
+                        <img src="../pics/lims-pics/csm_LIMS_Benefits_122d87d3ba.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefits - END -->
+
+            <!-- Options - START -->
+
+            <div id="options" class="container-options-section">
+                <div class="wrapper-options-section">
+                    <div class="text_imgs-content-options">
+                        <br>
+                        <br>
+                        <br>
+                        <div>
+                            <h1>Options</h1>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="../pics/lims-pics/csm_LIMS-Option-Database_b616841fcf.png" alt="">
+                                <h5>LIMS Database</h5>
+                            </div>
+                            <p>for LIMS bundled databases, with/without strong encryption</p>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="../pics/lims-pics/csm_LIMS-Option-High-Availability_466790a491.png" alt="">
+                                <h5>LIMS High-Availability</h5>
+                            </div>
+                            <p>System monitor for redundant LIMS systems</p>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="../pics/lims-pics/csm_LIMS-Option-Disaster_8116715ee6.png" alt="">
+                                <h5>LIMS Disaster Recovery</h5>
+                            </div>
+                            <p>for geo-redundant LIMS systems with warm-standby</p>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="../pics/lims-pics/csm_LIMS-Option-Remote-Access_1cacf316a2.png" alt="">
+                                <h5>LIMS Remote Access Interface</h5>
+                            </div>
+                            <p>Option for remote LIMS access</p>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="../pics/lims-pics/csm_LIMS-Option-HI-Test-Tool_f8e604f85b.png" alt="">
+                                <h5>LIMS HI-Test Tool</h5>
+                            </div>
+                            <p>Test tool for the validation of intercepted data</p>
+                        </div>
+                    </div>
+                    <div class="imgs-options-section">
+                        <img src="../pics/lims-pics/LIMS_Logo.png" alt="">
+                    </div>
+                    <div class="text_imgs-content-options-2">
+                        <div>
+                            <h1>Options</h1>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="../pics/lims-pics/csm_LIMS-Option-Database_b616841fcf.png" alt="">
+                                <h5>LIMS Database</h5>
+                            </div>
+                            <p>for LIMS bundled databases, with/without strong encryption</p>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="../pics/lims-pics/csm_LIMS-Option-High-Availability_466790a491.png" alt="">
+                                <h5>LIMS High-Availability</h5>
+                            </div>
+                            <p>System monitor for redundant LIMS systems</p>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="../pics/lims-pics/csm_LIMS-Option-Disaster_8116715ee6.png" alt="">
+                                <h5>LIMS Disaster Recovery</h5>
+                            </div>
+                            <p>for geo-redundant LIMS systems with warm-standby</p>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="../pics/lims-pics/csm_LIMS-Option-Remote-Access_1cacf316a2.png" alt="">
+                                <h5>LIMS Remote Access Interface</h5>
+                            </div>
+                            <p>Option for remote LIMS access</p>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="../pics/lims-pics/csm_LIMS-Option-HI-Test-Tool_f8e604f85b.png" alt="">
+                                <h5>LIMS HI-Test Tool</h5>
+                            </div>
+                            <p>Test tool for the validation of intercepted data</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Options - END -->
+
+            <!-- LI Standarts - START -->
+            <div class="container-li_standarts">
+                <div class="wrapper-li_standarts">
+                    <div class="text-content-li_standarts">
+                        <h1>LI Standards</h1>
+                        <h5>Utimaco is advocate and active supporter of international telecom standards and participates
+                            in
+                            LI standardization by ETSI and 3GPP. Utimaco LIMS complies with a large range of
+                            international
+                            LI standards:</h5>
+                        <p>
+                            ETSI: ETSI TS 101 671 (voice), ETSI TS 101 331 (generic), ETSI ES 201 158 (generic), ETSI TS
+                            102
+                            232-1 to 102 232-7 (IP, e-mail, VoIP)
+                            <br>
+                            ANSI/ATIS: J-STD-025-A/B (voice, CDMA), T1.678v2 (VoIP), ATIS-1000013.a.2009 (IAS), T1.724
+                            (UMTS), ATIS-0700005 (IMS/VoIP), TIA-1072 (PoC)
+                            <br>
+                            3GPP: 3GPP TS 33.106, 3GPP TS 33.107, 3GPP TS 33.108 (UMTS)
+                            <br>
+                            PacketCable: PacketCable v1.5 (Cable)
+                        </p>
+                    </div>
+                    <div class="img-lims-li_standarts pic-li_standarts">
+                        <img src="../pics/lims-pics/csm_LIMS_Multi_fdb0f7abfb.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- LI Standarts - END -->
+
+            <!-- Professional Services - START -->
+            <div class="container-professional_services">
+                <div class="wrapper-professional_services">
+                    <div class="img-lims-professional_services pic-services">
+                        <img src="../pics/lims-pics/LIMS_Logo2.png" alt="">
+                    </div>
+                    <div class="text-content-professional_services">
+                        <h1>Professional Services</h1>
+                        <p>
+                            Utimaco understands that LI management is not simply about purchasing hardware and software.
+                            It
+                            is also about meeting national regulatory requirements and keeping up with technical
+                            developments.
+                            <br>
+                            Our customized professional services and experienced technical support staff help you to
+                            comply
+                            with telecommunication laws while minimizing the costs and efforts of installation and
+                            operation, now and in the future.
+                            <br>
+                            Utimaco provides services worldwide, including 24/7 technical assistance, online support,
+                            on-site training, and installation services. We operate a global
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Professional Services - END -->
+
+            <!-- Solutions - START -->
+
+            <div id="solutions" class="container-solutions">
+                <div class="wrapper-solutions">
+                    <div class="text-content-solutions">
+                        <br>
+                        <br>
+                        <h1 id="solutions">Solutions</h1>
+                        <h2>Complete solution for lawful interception management</h2>
+                        <p>
+                            Lawful interception (LI) refers to the legally approved surveillance of telecommunication
+                            services. It has become an important tool for law enforcement and intelligence agencies
+                            around
+                            the world for investigating and prosecuting criminal activities and terrorism.
+                            <br>
+                            <br>
+                            Most countries have passed laws that require telecommunication service providers to support
+                            law
+                            enforcement agencies (LEAs) with duly authorized requests to identify, monitor, and deliver
+                            electronic communication of individuals. In addition, there are national regulatory
+                            authorities
+                            and international standardization bodies that together define the technical framework for
+                            legal
+                            interception.
+                        </p>
+                    </div>
+                    <div class="img-lims-solutions pic-solution">
+                        <br>
+                        <br>
+                        <br>
+                        <img src="../pics/lims-pics/csm_LIMS_Architecture_circle_321dcec179.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Solutions - END -->
+
+            <!-- Detailed Infromation - START -->
+
+            <div class="container-detailed">
+                <div class="wrapper-detailed">
+                    <div class="text-content-detailed">
+                        <h1>Detailed Information</h1>
+                        <h2>
+                            Download our in-depth information on our real-time
+                            monitoring solutions:
+                        </h2>
+                        <ul>
+                            <li>
+                                <a href="https://lims.utimaco.com/download-center/">Brochure “Lawful Interception of Telecommunication Services” (PDF, Int’l)</a>
+                            </li>
+                            <li>
+                                <a href="https://lims.utimaco.com/fileadmin/assets/brochures_datasheets_whitepapers/UTIMACO_LIMS_WHITEPAPER_EN.pdf">White paper “Lawful Interception in the Digital Age: Vital Elements of an Effective
+                                Solution” (PDF)</a>
+                            </li>
+                            <li>
+                                <a href="https://lims.utimaco.com/fileadmin/assets/videos/LIMS-Video_1920x1080.mp4">Video “Utimaco LIMS” (MP4 – 44 MB)</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="img-lims-solutions pic-lims-info">
+                        <img src="../pics/lims-pics/LIMS_Brochure.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Infromation - END -->
+            <footer class="site-footer">
+              <div class="container">
+                <div class="row">
+
+                  <div class="col-xs-6 col-md-3">
+                    <h6>Products</h6>
+                    <ul class="footer-links">
+                      <li><a href="/company.html">Hardware Security Module</a></li>
+                      <li><a href="/company.html">Lawful Interception Management System</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-xs-6 col-md-3">
+                    <h6> </h6>
+                    <ul class="footer-links">
+                      <br>
+                      <li><a href="http://scanfcode.com/about/">Support</a></li>
+                      <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <hr>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+                      <a href="#">Utimaco</a>.
+                    </p>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                      <li><a class="facebook" href="https://www.facebook.com/utimaco-GmbH-114229575303733"><i
+                            class="fa fa-facebook"></i></a></li>
+                      <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+
+                      <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </footer>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous">
+            </script>
+        </body>
+
+        </html>

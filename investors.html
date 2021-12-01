@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1;">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/9c31d13427.js" crossorigin="anonymous"></script>
+    <link rel="icon" sizes="192x192" href="./pics/UtimacoDiamondcopy.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src= "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+    <link rel="stylesheet" href="./css/style1.css">
+
+    <title>Management</title>
+
+  </head>
+  <body>
+    <div class="fixed-top navbar navbar-light bg-light navbar-expand-md">
+    <a class="navbar-brand" href="/index.html">
+      <img class="logo" src="./pics/Logo.png" width="170" height="40" class="d-inline-block align-top" alt="">
+    </a>
+
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">☰</button>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item"><a href="./index.html" class="nav-link">Home</a>
+        </li>
+        <li class="dropdown menu-large nav-item"> <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> Products </a>
+
+          <ul class="dropdown-menu megamenu">
+            <div class="row">
+              <li class="col-md-2 dropdown-item">
+                <ul>
+                  <li class="dropdown-header">LIMS(Lawful Interception Management System)</li>
+                  <li><a href="./Lims/LawfulInterceptionManagementSystem.html">Lawful Interception Management System</a>
+                  </li>
+                  <li class="disabled"><a href="./Lims/DataRetentionSuite.html">Data Retention Suite</a>
+                  </li>
+
+                  <li class="divider"></li>
+                  <li class="dropdown-header"></li>
+
+                </ul>
+              </li>
+              <li class="col-md-2 dropdown-item">
+                <ul>
+                  <li class="dropdown-header navcontainer"></li>
+                  <li><a href="./Lims/RealTimeNetworkMonitoring.html">LIMS Access Points</a>
+                  </li>
+                  <li><a href="./Lims/LISMGateaway.html">LIMS Gateway</a>
+                  </li>
+                  <li><a href="./Lims/LawfulInterceptionTestSuite.html">LITS - Lawful Interception Suite</a>
+                  </li>
+                  <li class="divider"></li>
+                </ul>
+              </li>
+              <li class="col-md-2 dropdown-item">
+                <ul>
+                  <li class="dropdown-header">HSM(Hardware Security Module)</li>
+                  <li><a class="Subheader">General Purpose HSM</a>
+                  </li>
+                  <li><a href="./HSM/SecuritySeverSeGen2.html">Security Server Se Gen2</a>
+                  </li>
+                  <li><a href="#">Security Server CSe</a>
+                  </li>
+                  <li><a href="#">CryptoServer CP5(eIDAS & CC)</a>
+                  </li>
+                  <li><a href="#">CryptoServer Cloud</a>
+                  </li>
+                  <li><a href="#">Timestamp Server</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header"></li>
+                  <li><a class="Subheader" href="#">Key Management</a>
+                  </li>
+                  <li><a href="#">Enterprise Key Management</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="col-md-2 dropdown-item navcontainer">
+                <ul>
+                  <li><a class="Subheader" href="#">KeyBRIDGE</a>
+                  </li>
+                  <li><a href="#">KeyBRIDGE POI</a>
+                  </li>
+                  <li><a href="./HSM/KeyBRIDGERKD.html">KeyBRIDGE RKD</a>
+                  </li>
+                  <li><a href="./HSM/BlockSafe.html">Block-safe</a>
+                  </li>
+                  <li><a href="./HSM/KeyBRIDGEEKMS.html">KeyBRIDGE eKMS</a>
+                  </li>
+                  <li><a href="./HSM/TokenBRIDGE.html">TokenBRIDGE</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header"></li>
+                  <li><a class="Subheader" href="#">HSM Simulator</a>
+                  </li>
+                  <li><a href="#">Block-safe HSM Simulator</a>
+                  </li>
+                  <li><a href="#">CryptoServer CP5 Simulator</a>
+                  </li>
+                  <li><a href="#">SecurityServer Simulator</a>
+                  </li>
+                  <li><a href="./HSM/Qsafe-simulator">Q-safe HSM Simulator</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="col-md-2 dropdown-item navcontainer">
+                <ul>
+                  <li><a class="Subheader" href="#">Software Development Kit</a>
+                  </li>
+                  <li><a href="./HSM/CryptoServer.html">CryptoServer SDK</a>
+                  </li>
+                  <li><a href="./HSM/CryptoScript.html">CryptoScript SDK</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header"></li>
+                  <li><a class="Subheader" href="#">Payment HSM</a>
+                  </li>
+                  <li><a href="./HSM/Atalla.html">Atalla AT1000</a>
+                  </li>
+                  <li><a href="./HSM/PaymentServerSeGen2.html">PaymentServer Se Gen2</a>
+                  </li>
+                  <li><a href="./HSM/PaymentServerCSe.html">Payment CSE</a>
+                  </li>
+                </ul>
+              </li>
+            </div>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="./service.html" class="nav-link">Services</a>
+        </li>
+
+        <li class="dropdown menu-large nav-item"> <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> About Us </a>
+
+          <ul class="dropdown-menu megamenu">
+            <div class="row" style="padding-left: 3%">
+              <li class="col-md-2 dropdown-item">
+                <ul>
+
+                  <li><a href="./careers.html">Careers</a>
+                  </li>
+                  <li class="disabled"><a href="./investors.html">Management & Investors</a>
+                  </li>
+
+                  <li class="divider"></li>
+                  <li class="dropdown-header"></li>
+
+                </ul>
+              </li>
+              <li class="col-md-2 dropdown-item">
+                <ul>
+
+                  <li><a href="./aboutUs.html">About Us</a>
+                  </li>
+                  <li><a href="./partner.html">Partners</a>
+                  </li>
+                  <li class="divider"></li>
+                </ul>
+              </li>
+      </ul>
+    </div>
+  </div>
+
+    <!-- main picture -->
+  	<header>
+  		<section class="mainpic" style="background: url(pics/u633.jpg) no-repeat center;">
+        <div class="heading">
+          <div class="text-1">Utimaco Management</div>
+          <br>
+          <div class="text-2">The Utimaco Management team brings experience from a wide variety of industries.
+          <br>
+          We share the responsibility to provide our customers at any time with innovative and reliable products.</div>
+        </div>
+    </section>
+  	</header>
+
+  	<main>
+      <!-- managers -->
+  		<section  class="max-width-manager">
+  			<div class="layout-manager">
+            <img class="pics-manager" src="pics/management.png">
+            <div class="managers">
+              <h3>Stefan Auerbach, CEO</h3>
+      				<p>Stefan Auerbach, who was Chairman of our Advisory Board in 2018, took over the position of CEO in January 2019. Stefan has a background of more than 30 years in R&D, Service, Marketing and Management of Global Sales Organizations for Information Technology and Mobile Security. He started his career in Nixdorf Computer, held several key management positions in Siemens Nixdorf and was a long-term Board Member in Wincor Nixdorf and Giesecke & Devrient.</p>
+    			</div>
+        </div>
+        <hr>
+  			<div class="layout2-manager">
+  				<div class="managers"  style="margin-right: 50px;">
+              <h3>Malte Pollmann, CSO</h3>
+              <p style="padding-right: 5px;">Malte Pollmann has been a member of the Utimaco Management Board since 2008 and CEO from 2011 until 2019. He currently holds the position as CSO (Chief Strategy Officer). Previously, he was Product Director and Business Unit Leader at Lycos Europe NV (a Bertelsmann company). With a master’s degree in Physics from the Universities of Paderborn and Kaiserslautern in Germany, Malte also received a general management education at INSEAD in Fontainebleau, France. In parallel to his work at Utimaco, he also serves on the Supervisory Board of the International School of IT Security – isits AG in Bochum.</p>
+          </div>
+  				<img class="pics-manager" src="pics/management-2.png" style="margin-right: -5px; margin-top: 120px;">
+  			</div>
+        <hr>
+  			<div class="layout-manager">
+          <img class="pics-manager" src="pics/management-3.png">
+  				<div class="managers">
+              <h3>Martin Stamm, CFO</h3>
+              <p>Martin took over the position of CFO in January 2020. Martin is a very experienced Business Finance Manager with a focus on business processes, acquisitions and post-merger integrations. He held various management positions at Siemens Nixdorf and Wincor Nixdorf and served as Managing Director at Diebold Nixdorf Systems GmbH and Vice President Finance Global Business Unit Systems at Diebold Nixdorf Inc. until 2019.</p>
+          </div>
+  			</div>
+        <hr>
+  			<div class="layout2-manager">
+  				<div class="managers"  style="margin-right: 50px;">
+              <h3>Stefan Zeichner, Senior Vice President Utimaco TS GmbH</h3>
+              <p>Stefan Zeichner has been with Utimaco since 1998, and has served as Senior Vice President (SVP) for the business unit "Lawful Interception & Monitoring Solutions" since 2011. Previously, he was Head of Research & Development at Utimaco from 2006 to 2011. Stefan holds a master’s degree in Electrical Engineering from Aachen University of Technology (RWTH).</p>
+          </div>
+  				<img class="pics-manager" src="pics/management-4.png" style="margin-right: -5px; margin-top: 65px;">
+  			</div>
+  		</section>
+
+      <!-- investors -->
+      <section class="max-width-invest">
+        <div class="header">Investors</div>
+        <div class="investors">
+            <img class="pics-invest" src="pics/eqt.png" style="margin-top: 100px;">
+              <div class="text-invest">
+              <h3>EQT</h3>
+              <p>EQT is a leading global private equity group with approximately EUR 40 billion in assets under management. EQT has 19 active funds with companies in Europe, Asia and the US with total sales of EUR 21 billion and approximately 127,000 employees. EQT works with portfolio companies to achieve sustainable growth, operational excellence and market leadership.</p>
+                <br>
+              <p style="margin-top: 0px;">For further information, please visit <a href="https://www.eqtgroup.com/">www.eqtpartners.com.</a></p>
+          </div>
+        </div>
+        <hr>
+        <div class="investors2">
+          <div class="text-invest">
+              <h3>PINOVA Capital</h3>
+              <p>PINOVA Capital is an independent private equity firm focusing on high-growth engineering and services companies in German-speaking regions of Europe. The fund invests equity between € 3 million and € 15 million, taking minority and majority positions in companies within a revenue bracket of € 10 million to € 75 million. PINOVA Capital was founded by Marko Maschek, Martin Olbort and Joern Pelzer, who have long-standing experience in private equity, an entrepreneurial background in small business, and an international network. PINOVA Fund I currently holds investments in ten companies (BrandMaker GmbH, CLARUS Films GmbH, deconta GmbH, fabfab GmbH, Hemoteq AG, INVENT Umwelttechnik AG, Norafin GmbH, RADEMACHER GERÄTE-ELEKTRONIK GmbH, Utimaco GmbH and WENDT SIT GmbH & Co. KG). It is supported by the European Union through the Competitiveness and Innovation Framework Programme (CIP).</p>
+          </div>
+          <img class="pics-invest" src="pics/pinova.png" style="margin-top: 120px;">
+        </div>
+        <hr>
+        <div class="investors">
+          <img class="pics-invest" src="pics/bip.png">
+          <div class="text-invest">
+              <h3>BIP Capital Partners (BIP)</h3>
+              <p>BIP is an independent investor based in Luxembourg with proven experience and a sustainable track record. It invests in medium-sized companies with a clear growth perspective, especially in Germany, the Benelux countries, France, Austria and Switzerland. BIP supports the further development and expansion of companies in various sectors, both through relevant expertise and through the provision of financing for growth initiatives or acquisitions.</p>
+                <br>
+              <p style="margin-top: 0px;">For further information, please visit <a href="https://bip.lu/en/">www.bip.lu</a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- business -->
+      <section class="max-width-business">
+        <div class="Business">
+          <div class="header">Business Ethics</div>
+          <p class="sub-heading" style="font-weight: 700;">Principles or our Corporate Social Responsibility (CSR)</p>
+          <div class="layout">
+          <p>To manage the business for long-term, sustainable success, to support and encourage our employees and to take responsibility for society: these goals form the foundation for our corporate social responsibility (CSR) activities. In everything we do, every day, we aim to achieve these goals. Please find here our different guidelines:</p>
+          <img class="pics-business" src="pics/business.png">
+          </div>
+          <ul>
+            <li style="display: flex; flex-direction: column;">
+              <a href="#">PDF: Anti-bribery and anti-corruption Code of conduct</a>
+              <a href="#">PDF: Environmental Policy</a>
+              <a href="#">PDF: Labor Practice & Human Rights Declaration of Commitment</a>
+              <a href="#">PDF: Export Compliance Policy</a>
+              <a href="#">PDF: KYC LIMS</a>
+              <a href="#">PDF: KYC HSM</a>
+              <a href="#">PDF: Modern Slavery and Human Trafficking Statement for the Financial Year 20/21</a>
+            </li>
+          </ul>
+          <p>Utimaco pays close attention to complying with export guidelines. Thus, Utimaco requires all of its resellers and customers to strictly adhere to the export guidelines valid in Germany and Europe, respectively, as well as the relevant embargo regulations from the United Nations. Utimaco reserves the right to audit its sales partners’ compliance with export rules.<p/>
+            <img class="pics-business2" src="pics/business.png">
+        </div>
+      </section>
+
+       <!-- memberships -->
+      <section class="max-width-invest" id="max-width-mc">
+         <div class="header">Memberships and Certifications</div>
+        <p style="text-align: center;">Memberships in industry organizations as well as certifications and industry standards.</p>
+        <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                      <a href="#">
+                        <img src="pics/membership.png" alt="">
+                      </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                      <a href="#">
+                        <img src="pics/membership-2.png" alt="">
+                      </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                      <a href="#">
+                        <img src="pics/membership-3.png" alt="">
+                      </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                      <a href="#">
+                        <img src="pics/membership-4.png" alt="">
+                      </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                      <a href="#">
+                        <img src="pics/membership-5.png" alt="">
+                      </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                      <a href="#">
+                        <img src="pics/membership-6.png" alt="">
+                      </a>
+                    </div>
+                </div>
+            </div>
+      </section>
+
+      <!-- research -->
+      <section class="max-width-business">
+        <div class="Business">
+          <div class="header">Engagement in Research</div>
+          <p>Utimaco supports universities in many ways: by sponsoring internships, master’s degree theses, and doctorates, and by actively sponsoring guest professors. Thus, our employees regularly give lectures on topics centered on hardware security at the Ruhr University Bochum.</p>
+          <div class="layout">
+          <p>As a co-shareholder, with the Ruhr University Bochum and the TÜV Rheinland (Technical Inspection Authority), we provide strategic expertise and know-how through the International School of IT Security – isits AG. Since its founding in 2001, isits AG has become an acknowledged, Europe-wide education, further training and conference provider for IT security and information security.</p>
+          <img class="pics-research" src="pics/research.png">
+          </div>
+          <p>Its close collaboration with companies and universities makes isits AG a professional training partner for IT users, professionals, and experts.<p/>
+        </div>
+        <img class="pics-research2" src="pics/research.png">
+      </section>
+  	</main>
+
+  	<!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Products</h6>
+            <ul class="footer-links">
+              <li><a href="/company.html">Hardware Security Module</a></li>
+              <li><a href="/company.html">Lawful Interception Management System</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>   </h6>
+            <ul class="footer-links">
+                <br>
+              <li><a href="http://scanfcode.com/about/">Support</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+         <a href="#">Utimaco</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/utimaco-GmbH-114229575303733"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+
+  <script type="text/javascript" src="js/script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

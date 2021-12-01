@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1;">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src= "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="./css/style1.css">
+
+
+    <title>Company</title>
+
+    <!-- <script>
+      $(document).ready(function(){
+        $('.LIMSbtn').click(function(){
+          $('#div1').hide();
+          $('#div2').hide();
+          $('.LIMS-solutions').show();
+        });
+
+        $('.backbtnHSM').click(function(){
+          $('.HSM-solutions').hide();
+          $('#div2').show();
+          $('#div1').show();
+        });
+
+        $('.HSMbtn').click(function(){
+          $('#div2').hide();
+          $('#div1').hide();
+          $('.HSM-solutions').show();
+        });
+
+        $('.backbtnLIMS').click(function(){
+          $('.LIMS-solutions').hide();
+          $('#div1').show();
+          $('#div2').show();
+        });
+      });
+    </script> -->
+
+  </head>
+  <body>
+
+    <div class="fixed-top navbar navbar-light bg-light navbar-expand-md">
+    <a class="navbar-brand" href="/index.html">
+      <img class="logo" src="./pics/Logo.png" width="170" height="40" class="d-inline-block align-top" alt="">
+    </a>
+
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">☰</button>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item"><a href="./index.html" class="nav-link">Home</a>
+        </li>
+        <li class="dropdown menu-large nav-item"> <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> Products </a>
+
+          <ul class="dropdown-menu megamenu">
+            <div class="row">
+              <li class="col-md-2 dropdown-item">
+                <ul>
+                  <li class="dropdown-header">LIMS(Lawful Interception Management System)</li>
+                  <li><a href="./Lims/LawfulInterceptionManagementSystem.html">Lawful Interception Management System</a>
+                  </li>
+                  <li class="disabled"><a href="./Lims/DataRetentionSuite.html">Data Retention Suite</a>
+                  </li>
+
+                  <li class="divider"></li>
+                  <li class="dropdown-header"></li>
+
+                </ul>
+              </li>
+              <li class="col-md-2 dropdown-item">
+                <ul>
+                  <li class="dropdown-header navcontainer"></li>
+                  <li><a href="./Lims/RealTimeNetworkMonitoring.html">LIMS Access Points</a>
+                  </li>
+                  <li><a href="./Lims/LISMGateaway.html">LIMS Gateway</a>
+                  </li>
+                  <li><a href="./Lims/LawfulInterceptionTestSuite.html">LITS - Lawful Interception Suite</a>
+                  </li>
+                  <li class="divider"></li>
+                </ul>
+              </li>
+              <li class="col-md-2 dropdown-item">
+                <ul>
+                  <li class="dropdown-header">HSM(Hardware Security Module)</li>
+                  <li><a class="Subheader">General Purpose HSM</a>
+                  </li>
+                  <li><a href="./HSM/SecuritySeverSeGen2.html">Security Server Se Gen2</a>
+                  </li>
+                  <li><a href="#">Security Server CSe</a>
+                  </li>
+                  <li><a href="#">CryptoServer CP5(eIDAS & CC)</a>
+                  </li>
+                  <li><a href="#">CryptoServer Cloud</a>
+                  </li>
+                  <li><a href="#">Timestamp Server</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header"></li>
+                  <li><a class="Subheader" href="#">Key Management</a>
+                  </li>
+                  <li><a href="#">Enterprise Key Management</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="col-md-2 dropdown-item navcontainer">
+                <ul>
+                  <li><a class="Subheader" href="#">KeyBRIDGE</a>
+                  </li>
+                  <li><a href="#">KeyBRIDGE POI</a>
+                  </li>
+                  <li><a href="./HSM/KeyBRIDGERKD.html">KeyBRIDGE RKD</a>
+                  </li>
+                  <li><a href="./HSM/BlockSafe.html">Block-safe</a>
+                  </li>
+                  <li><a href="./HSM/KeyBRIDGEEKMS.html">KeyBRIDGE eKMS</a>
+                  </li>
+                  <li><a href="./HSM/TokenBRIDGE.html">TokenBRIDGE</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header"></li>
+                  <li><a class="Subheader" href="#">HSM Simulator</a>
+                  </li>
+                  <li><a href="#">Block-safe HSM Simulator</a>
+                  </li>
+                  <li><a href="#">CryptoServer CP5 Simulator</a>
+                  </li>
+                  <li><a href="#">SecurityServer Simulator</a>
+                  </li>
+                  <li><a href="./HSM/Qsafe-simulator">Q-safe HSM Simulator</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="col-md-2 dropdown-item navcontainer">
+                <ul>
+                  <li><a class="Subheader" href="#">Software Development Kit</a>
+                  </li>
+                  <li><a href="./HSM/CryptoServer.html">CryptoServer SDK</a>
+                  </li>
+                  <li><a href="./HSM/CryptoScript.html">CryptoScript SDK</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header"></li>
+                  <li><a class="Subheader" href="#">Payment HSM</a>
+                  </li>
+                  <li><a href="./HSM/Atalla.html">Atalla AT1000</a>
+                  </li>
+                  <li><a href="./HSM/PaymentServerSeGen2.html">PaymentServer Se Gen2</a>
+                  </li>
+                  <li><a href="./HSM/PaymentServerCSe.html">Payment CSE</a>
+                  </li>
+                </ul>
+              </li>
+            </div>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="./service.html" class="nav-link">Services</a>
+        </li>
+
+        <li class="dropdown menu-large nav-item"> <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> About Us </a>
+
+          <ul class="dropdown-menu megamenu">
+            <div class="row" style="padding-left: 3%">
+              <li class="col-md-2 dropdown-item">
+                <ul>
+
+                  <li><a href="./careers.html">Careers</a>
+                  </li>
+                  <li class="disabled"><a href="./investors.html">Management & Investors</a>
+                  </li>
+
+                  <li class="divider"></li>
+                  <li class="dropdown-header"></li>
+
+                </ul>
+              </li>
+              <li class="col-md-2 dropdown-item">
+                <ul>
+
+                  <li><a href="./aboutUs.html">About Us</a>
+                  </li>
+                  <li><a href="./partner.html">Partners</a>
+                  </li>
+                  <li class="divider"></li>
+                </ul>
+              </li>
+      </ul>
+    </div>
+  </div>
+    <!-- main picture -->
+  	<header>
+  		<div class="mainpic" style="background-image: url(pics/u611.png);"></div>
+  	</header>
+
+    <!-- LIMS -->
+  	<main class="solutions">
+  		<section>
+  			<div class="home" id="div1">
+          <div >
+  				<p style="font-size: 20px;">Lawful interception (LI) refers to the legally approved surveillance of telecommunication services. It has become an important tool for law enforcement and intelligence agencies around the world for investigating and prosecuting criminal activities and terrorism.</p>
+
+          <p style="font-size: 20px; margin-top: -7px;">Most countries have passed laws that require telecommunication service providers to support law enforcement agencies (LEAs) with duly authorized requests to identify, monitor, and deliver electronic communication of individuals. In addition, there are national regulatory authorities and international standardization bodies that together define the technical framework for legal interception.</p>
+
+          <button type="button" class="LIMSbtn">Explore our Lawful Interception Management(LIMS) solutions</button>
+          </div>
+  				<img class="pics" src="pics/u470.png" style="margin-top: 60px;">
+  			</div>
+      </section>
+<hr>
+
+    </main>
+
+      <!-- LIMS solutions -->
+    <section class="LIMS-solutions">
+      <div>
+        <h2>Lawful Interception Management(LIMS) solutions</h2>
+        <div class="solutions-container">
+          <div class="LIMS-sol">
+            <div>
+              <h3>Lawful Interception Management System</h3>
+              <p>Utimaco general purpose HSMs help you stay abreast of compliance requirements, while reducing your total cost of ownership and making your HSM estate future-proof and cloud-ready.</p>
+              <a href="./Lims/LawfulInterceptionManagementSystem.html">Learn more</a>
+            </div>
+            <img src="pics/u530.png" style="width: 300px;">
+          </div>
+          <div class="LIMS-sol2">
+            <div style="width: 50%; margin-left: 50px;">
+              <h3>Data Retention Suite</h3>
+              <p>All aggeregated Internet Connection Records(also known as Internet Protocol Detail Records - IPDR's) can be loaded to the Utimaco DRS for long-term retention and analysis. With Utimaco DRS, operators can trace back IP addresses to individual users, phone numbers and geographical locations. The Utimaco Data Retention Suite provides comprehensive security features for controlled data access by telecom operators and/or law enforcement agencies.</p>
+              <a href="./Lims/DataRetentionSuite.html">Learn more</a>
+            </div>
+            <img src="pics/u474.png" style="width: 200px;">
+          </div>
+        </div>
+        <br>
+        <div class="solutions-container">
+          <div class="LIMS-sol">
+            <div>
+              <h3>Lawful Interception Test Suite (LITS)</h3>
+              <p>The new Utimaco LI Test Suite has been designed to test monitoring facilities by simulating real-time LI traffic without the need for a real network and user devices. Test cases with voice calls, messages and Internet data can be defined and executed within minutes, giving agencies an unprecedented possibility to verify the capabilities of law enforcement facilities before they process sensitive data from real networks and judicial intercept warrants.</p>
+              <a href="./Lims/LawfulInterceptionTestSuite">Learn more</a>
+            </div>
+            <img src="pics/u534.png" style="width: 300px;">
+          </div>
+          <div class="LIMS-sol2">
+            <div style="width: 50%; margin-left: 50px;">
+              <h3>LIMS Access points</h3>
+              <p>When it comes to monitoring Internet access networks, there is generally a choice between active and passive interception methods. With active interception, available network nodes, like routers and AAA servers, provide capabilities to monitor the authentication data as well as the IP media stream of persons under surveillance.Utimaco LIMS supports a large range of network routers and access gateways for virtually any type of broadband network.</p>
+              <a href="./Lims/RealTimeNetworkMonitoring">Learn more</a>
+            </div>
+            <img src="pics/u522.jpg" style="width: 200px;">
+          </div>
+        </div>
+        <br>
+        <div class="solutions-container">
+          <div class="LIMS-sol3">
+            <div style="width: 30%;">
+              <h3>LIMS Gateway</h3>
+              <p>The LIMS Gateway converts intercepted calls between SS&/ISDN and VoIP networks. It supports all common voice codecs including transcoding and protects calls by comprehensive access control and encryption features. In combination with Utimaco LIMS the gateway mediates intercepted calls in compliance with common LI standards, such as ETSI TS 102 232-5 and TS 101 671.</p>
+              <a href="./Lims/LISMGateaway">Learn more</a>
+            </div>
+            <img src="pics/u526.png" style="width: 300px;">
+          </div>
+        </div>
+        <br>
+        <button class="backbtnLIMS">Close</button>
+        <br>
+      </div>
+    </section>
+  <br>
+
+    <!-- HSM -->
+    <main class="solutions">
+      <section>
+  			<div class="home" id="div2" style="padding-top: -20px;">
+  				<div style="display: flex; flex-direction: column;">
+          <p style="font-size: 20px;">Utimaco is a leading manufacturer of Hardware Security Modules (HSMs) that provide the Root of Trust to all industries, from financial services and payment to the automotive industry, cloud services to the public sector.</p>
+
+          <p style="font-size: 20px; margin-top: -7px;">We keep your cryptographic keys and digital identities safe in order to protect critical digital infrastructures and high value data assets. Our products enable innovations and support the creation of new business by helping to secure critical data and transactions.</p>
+
+          <button class="HSMbtn">Explore our Hardware Security Module(HSM) solutions</button>
+          </div>
+          <img class="pics" src="pics/u470.png" style="margin-top: 60px;">
+  			</div>
+  		</section>
+  	</main>
+
+  <!-- HSM solutions -->
+    <section class="HSM-solutions">
+      <div>
+        <h2 style="margin-left: 150px; padding-bottom: 30px; color: #111; text-decoration: ;">Hardware Security Module(HSM) solutions</h2>
+        <div class="solutionsHSM-container">
+          <div class="HSM-sol" id="sol1">
+            <div>
+              <h3>HSM products</h3>
+              <p>Utimaco general purpose HSMs help you stay abreast of compliance requirements, while reducing your total cost of ownership and making your HSM estate future-proof and cloud-ready.</p>
+              <button id="HSM1">Explore our general purpose HSM products</button>
+            </div>
+            <img src="pics/u13.png" style="width: 300px;">
+          </div>
+          <div class="HSM-sol4" id="sol2">
+            <div>
+              <h3>General Purpose HSM</h3>
+              <a href="./HSM/SecuritySeverSeGen2.html">SecurityServer Se Gen2</a>
+              <a href="#">SecurityServer CSe</a>
+              <a href="./HSM/BlockSafe.html">Block-safe</a>
+              <a href="#">CryptoServer CP5 (eIDAS & CC)</a>
+              <a href="#">CryptoServer Cloud</a>
+              <a href="#">TimestampServer</a>
+              <button id="backbtnsol-HSM">Back</button>
+            </div>
+          </div>
+          <br>
+          <div class="HSM-sol2" id="sol3">
+            <div style="width: 50%; margin-left: 50px;">
+              <h3>payment HSM products</h3>
+              <p>A payment HSM is a hardened, tamper-resistant hardware device that is used primarily by the retail banking industry to provide high levels of protection for cryptographic keys and customer PINs used during the issuance of magnetic stripe and EMV chip cards (and their mobile application equivalents) and the subsequent processing of credit and debit card payment transactions.</p>
+              <button id="HSM2">Explore our payment HSM products</button>
+            </div>
+            <img src="pics/u486.png" style="width: 200px;">
+          </div>
+          <div class="HSM-sol4" id="sol4">
+            <div>
+              <h3>Payment HSM</h3>
+              <a href="#">Atalla AT1000</a>
+              <a href="#">PaymentServer Se Gen2</a>
+              <a href="#">PaymentServer CSe</a>
+              <button id="backbtnsol4-HSM">Back</button>
+            </div>
+          </div>
+        </div>
+        <div class="solutionsHSM-container">
+          <div class="HSM-sol" id="sol5">
+            <div>
+              <h3>KeyBRIDGE</h3>
+              <p>The KeyBRIDGE platform extends a simple and intuitive interface for managing and distributing cryptographic keys and keying materials across a broad spectrum of use cases. The KeyBRIDGE platform eliminates the burden and worry associated with cryptographic key management by supporting a vendor agnostic approach.</p>
+              <button id="HSM3">Explore our KeyBRIDGE products</button>
+            </div>
+            <img src="pics/u515.png" style="width: 300px;">
+          </div>
+          <div class="HSM-sol4" id="sol6">
+            <div>
+              <h3>Key BRIDGE</h3>
+              <a href="#">KeyBRIDGE POI</a>
+              <a href="./HSM/KeyBRIDGERKD.html">KeyBRIDGE RKD</a>
+              <a href="./HSM/KeyBRIDGEEKMS.html">KeyBRIDGE eKMS</a>
+              <a href="./HSM/TokenBRIDGE.html">TokenBRIDGE™</a>
+              <button id="backbtnsol6-HSM">Back</button>
+            </div>
+          </div>
+          <br>
+          <div class="HSM-sol2" id="sol7">
+            <div style="width: 50%; margin-left: 50px;">
+              <h3>Software Development Kits</h3>
+              <p>We offer powerful professional software development kits for all Utimaco Hardware Security Modules, making our HSMs fully customizable and providing customers with full flexibility.Our Software Development Kits allow you to “drop in” new algorithms – for example Quantum-safe ones – to make sure your can taylor our product to your needs.</p>
+              <button id="HSM4">Explore our Software Development Kits</button>
+            </div>
+            <img src="pics/u483.png" style="width: 200px;">
+          </div>
+          <div class="HSM-sol4" id="sol8">
+            <div>
+              <h3>Software Development Kit (SDK)</h3>
+              <a href="./HSM/CryptoServer.html">CryptoServer SDK</a>
+              <a href="./HSM/CryptoScript.html">CryptoScript SDK</a>
+              <button id="backbtnsol8-HSM">Back</button>
+            </div>
+          </div>
+        </div>
+        <div class="solutionsHSM-container">
+          <div class="HSM-sol" id="sol9">
+            <div>
+              <h3>HSM simulators</h3>
+              <p>Utimaco offers various HSM software simulator packages to test and evaluate our Hardware Security Modules. Utimaco offers fully functional HSM software simulators for download. The Utimaco HSM simulator enables evaluation, development and integration testing without purchase, delivery or installation of hardware.</p>
+              <button id="HSM5">Explore our HSM simulators</button>
+            </div>
+            <img src="pics/u489.png" style="width: 300px;">
+          </div>
+          <div class="HSM-sol4" id="sol10">
+            <div>
+              <h3>HSM simulators</h3>
+              <a href="#">Block-safe HSM simulator</a>
+              <a href="#">CryptoServer CP5 simulator (eIDAS & CC)</a>
+              <a href="#">SecurityServer simulator</a>
+              <a href="./HSM/Qsafe-simulator.html">Q-safe HSM simulator</a>
+              <button id="backbtnsol10-HSM">Back</button>
+            </div>
+          </div>
+          <br>
+          <div class="HSM-sol3" id="sol11">
+            <div style="width: 50%; margin-left: 50px;">
+              <h3>ESKM</h3>
+              <p>ESKM is deployed wherever customers use encrypted stor­age or communications to protect their sensitive information. When customers encrypt data and adopt a unified key management approach with ESKM, they store and serve keys with strong access con­trols and security.</p>
+              <button id="HSM6">Explore our key management product</button>
+            </div>
+            <img src="pics/u518.png" style="width: 200px;">
+          </div>
+          <div class="HSM-sol4" id="sol12">
+            <div>
+              <h3>Key Management</h3>
+              <a href="#">Enterprise Key Management</a>
+              <button id="backbtnsol12-HSM">Back</button>
+            </div>
+          </div>
+        </div>
+        <br>
+        <button class="backbtnHSM">Close</button>
+        <br>
+      </div>
+    </section>
+  <br>
+  <br>
+
+  	<!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Products</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">Hardware Security Module</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">Lawful Interception Management System</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>   </h6>
+            <ul class="footer-links">
+                <br>
+              <li><a href="http://scanfcode.com/about/">Support</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+         <a href="#">Utimaco</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
